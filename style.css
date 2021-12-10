@@ -1,20 +1,55 @@
 .heading{
-  width: 100%;
+    width: 100%;
+    text-align: left;
+}
 
+
+.heading h3{
+    display: inline;
 }
 
 
 
-.headig{
-  background-color: rgba(247, 255, 132, 0.76);
-  padding: 10px;
-  box-shadow: 1px 1px 1px black;
-  border-radius: 10px;
+.heading button{
+    float: right;
+    border: 1px solid white;
 }
 
-.modal-body{
-  background-color: rgba(255, 132, 132, 0.76);
-  padding: 10px;
-  box-shadow: 1px 1px 18px rgb(0, 0, 0);
-  width: 95%;
+
+#mario{
+    width: 100%;
+}
+
+
+
+#play, #status{
+    width: 40%;
+}
+
+
+h4{
+    background-color: wheat;
+    line-height: 2;
+    margin: 0px;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+
+#headig{
+    border-radius: 6px;
+    background-color: rgb(175, 175, 175);
+    font-size: 20px;
+    padding: 7px;
+}
+
+
+video{
+    background: url('game_console.png');
+    background-position: center;
+    background-size: cover;
+    padding: 45px;
+
 }
